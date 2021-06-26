@@ -38,7 +38,7 @@ const Gallery = () => {
     <>
       <div className={model ? 'model open' : 'model'}>
         <img src={tempingSrc} />
-        <CloseIcon />
+        <CloseIcon onClick={() => setModel(false)} />
       </div>
       <div className="gallery">
         {data.map((item, index) => {
