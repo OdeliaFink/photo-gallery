@@ -24,6 +24,22 @@ const Gallery = () => {
       id: 4,
       imgSrc: Img4,
     },
+    {
+      id: 1,
+      imgSrc: Img1,
+    },
+    {
+      id: 2,
+      imgSrc: Img2,
+    },
+    {
+      id: 3,
+      imgSrc: Img3,
+    },
+    {
+      id: 4,
+      imgSrc: Img4,
+    },
   ];
 
   const [model, setModel] = useState(false);

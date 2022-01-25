@@ -5,7 +5,11 @@
   -webkit-column-width: 33%;
   -moz-column-width: 33%;
   column-width: 33%;
-  padding: 0 12px;
+  padding: 10px 200px 0 200px;
+}
+
+body {
+  background-color: beige;
 }
 
 .gallery .pics {

@@ -1,11 +1,13 @@
 import React from 'react';
 import Gallery from './Gallery';
+import NavBar from './NavBar';
 
 function App() {
   return (
     <>
-      <h1 style={{ textAlign: 'center' }}>Image Gallery</h1>
-      <h2 style={{ textAlign: 'center' }}>please Subscribe </h2>
+      {/* <NavBar /> */}
+      <h1 style={{ textAlign: 'center' }}>Family Photos</h1>
+      <h2 style={{ textAlign: 'center' }}>Beirut, Lebanon </h2>
       <Gallery />
     </>
   );
